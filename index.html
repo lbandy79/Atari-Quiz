@@ -6,50 +6,32 @@
 	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 <body>
-	<div class="bg">
-		<div id="results">SCORE 0</div>
-		<div id="boxart-container">
-			<div class="boxart">
-				<img src="Blackjack.jpg"/>
-			</div>
-			<div class="boxart">
-				<img src="Air Sea Battle.jpg"/>
-			</div>
-			<div class="boxart">
-				<img src="Basic Math.jpg"/>
-			</div>
-			<div class="boxart">
-				<img src="Combat.jpg"/>
-			</div>
-			<div class="boxart">
-				<img src="Indy 500.jpg"/>
-			</div>
-			<div class="boxart">
-				<img src="Star Ship.jpg"/>
-			</div>
-			<div class="boxart">
-				<img src="Street Racer.jpg"/>
-			</div>
-			<div class="boxart">
-				<img src="Surround.jpg"/>
-			</div>
-			<div class="boxart">
-				<img src="Video Olympics.jpg"/>
-			</div>
-			<div class="boxart">
-				<img src="3D Tic Tac Toe.jpg"/>
-			</div>
-		</div>
-		<div class="quiz-container">
-  			<div id="quiz"></div>
-		</div>
-		<div class="button-container">
+	<section class="quizbox">
+		<header class="billboard">
+			<h1 id="results">SCORE 0</h1>
+			<h2 id="game-over"></h2>
+		</header>
+		<main id="quizbox">
+			<img class="boxart" src="Blackjack.jpg"/>
+			<img class="boxart" src="Air Sea Battle.jpg"/>
+			<img class="boxart" src="Basic Math.jpg"/>
+			<img class="boxart" src="Combat.jpg"/>
+			<img class="boxart" src="Indy 500.jpg"/>
+			<img class="boxart" src="Star Ship.jpg"/>
+			<img class="boxart" src="Street Racer.jpg"/>
+			<img class="boxart" src="Surround.jpg"/>
+			<img class="boxart" src="Video Olympics.jpg"/>
+			<img class="boxart" src="3D Tic Tac Toe.jpg"/>
+			<div class="quiz-container">
+  				<div id="quiz"></div>
+  			</div>	
+  		</main>
+		<footer>
 			<button id="previous">Previous Question</button>
 			<button id="next">Next Question</button>
 			<button id="submit">Enter</button>
-		</div>
-		<div id="game-over"></div>
-	</div>
+		</footer>
+	</section>
 
 	<script
     src="https://code.jquery.com/jquery-3.2.1.min.js"

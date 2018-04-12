@@ -15,10 +15,6 @@ body {
   transition: opacity 0.5s;
   padding: 12px;
   background: rgba(0,0,0,0.8);
-  /* width: 50%; */
-  /* min-width: 50%; */
-  /* max-width: 600px; */
-  /* height: 63px; */
 }
 
 .active-slide{
@@ -31,7 +27,6 @@ header {
 
 .quizbox {
   width: 50%;
-  /* min-height: 500px; */
   min-width: 320px;
   max-width: 400px;
   margin: 5vh auto;
@@ -41,7 +36,6 @@ header {
 
 .billboard {
   text-align: center;
-  /* margin:  10px; */
 }
 
 .game-over {
@@ -70,8 +64,6 @@ header {
 }
 
 footer button {
-  /* display: inline-grid; */
-  /* float: right; */
   font-family: "Press Start 2P", sans-serif;
   color: white;
   background-color: black;

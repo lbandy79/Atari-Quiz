@@ -80,7 +80,7 @@ $(document).ready(() => {
       answers: {
         a: "Air-Sea Battle",
         b: "Republicans vs Democrats",
-        c: "World War III"
+        c: "World War X"
       },
       correctAnswer: "a"
     },

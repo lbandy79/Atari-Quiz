@@ -1,11 +1,3 @@
-.ui-dialog .ui-widget .ui-widget-content .ui-corner-all .ui-front .ui-draggable .ui-resizableIn {
-  position: relative;
-  height: auto;
-  width: 300px;
-  top: -618px !important;
-  left: 1px !important;
-  display: block;
-}
 
 .ui-dialog {
   background-color: black;

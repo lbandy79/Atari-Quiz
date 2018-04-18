@@ -1,3 +1,25 @@
+.ui-dialog .ui-widget .ui-widget-content .ui-corner-all .ui-front .ui-draggable .ui-resizableIn {
+  position: relative;
+  height: auto;
+  width: 300px;
+  top: -618px !important;
+  left: 1px !important;
+  display: block;
+}
+
+.ui-dialog {
+  background-color: black;
+  padding: 10px;
+}
+
+.ui-button {
+  font-family: "Press Start 2P";
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
 body {
   font-family: "Press Start 2P", sans-serif;
   font-size: 12px;

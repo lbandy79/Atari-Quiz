@@ -3,6 +3,8 @@ $(document).ready(() => {
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
 
+
+
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
@@ -56,13 +58,7 @@ $(document).ready(() => {
         // add to the number of correct answers
         numCorrect++;
 
-        // color the answers green
-        //answerContainers[questionNumber].style.color = "lightgreen";
-      } /* else if {
-            // if answer is wrong or blank
-            // color the answers red
-            answerContainers[questionNumber].style.color = "red";
-            } */
+      } 
     });
 
     // show number of correct answers out of total
@@ -223,6 +219,19 @@ $(document).ready(() => {
   function showPreviousBox(o) {
     boxSlide((boxIndex -= 1));
   }
+
+  $( "#dialog" ).dialog({
+  dialogClass: "no-close",
+  position: { my: "left top", at: "left bottom", of: window},
+  buttons: [
+    {
+      text: "OK",
+      click: function() {
+        $( this ).dialog( "close" );
+      }
+    }
+  ]
+});
 
   previousButton.addEventListener("click", showPreviousSlide);
   previousButton.addEventListener("click", showPreviousBox);

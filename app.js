@@ -69,6 +69,24 @@ $(document).ready(() => {
     {
       question: "Guess the Game?",
       answers: {
+        a: "Fly from Heck",
+        b: "Yar's Revenge",
+        c: "Kafka's Metamorphosis"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "Guess the Game?",
+      answers: {
+        a: "Rainbow Astronaut",
+        b: "Space Tennis",
+        c: "Super Breakout",
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Guess the Game?",
+      answers: {
         a: "Casino Royal",
         b: "What Stays in Vegas",
         c: "Blackjack"
@@ -81,6 +99,15 @@ $(document).ready(() => {
         a: "Air-Sea Battle",
         b: "Republicans vs Democrats",
         c: "World War X"
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "Guess the Game?",
+      answers: {
+        a: "Outlaw",
+        b: "The Gunslinger's Beard",
+        c: "Runaway Wagon"
       },
       correctAnswer: "a"
     },
@@ -105,9 +132,36 @@ $(document).ready(() => {
     {
       question: "Guess the game?",
       answers: {
+        a: "Swipe Right",
+        b: "Space Office",
+        c: "Basic Programming"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Guess the game?",
+      answers: {
+        a: "Berzerk",
+        b: "Robot Go Boom",
+        c: "Mall Cop"
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "Guess the game?",
+      answers: {
         a: "That Racing Movie With Tom Cruise",
         b: "Indy 500",
         c: "Uber: The Game"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "Guess the game?",
+      answers: {
+        a: "Treaure Island",
+        b: "Flag Capture",
+        c: "Pirates"
       },
       correctAnswer: "b"
     },
@@ -132,11 +186,29 @@ $(document).ready(() => {
     {
       question: "Guess the game?",
       answers: {
+        a: "Disco Goatees",
+        b: "The Weird Uncle",
+        c: "Othello"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Guess the game?",
+      answers: {
         a: "What the Block?",
         b: "Internet Search History",
         c: "Surround"
       },
       correctAnswer: "c"
+    },
+    {
+      question: "Guess the game?",
+      answers: {
+        a: "Renaissance Fair Fun",
+        b: "Video Checkers",
+        c: "Hamlet: The Younger Years"
+      },
+      correctAnswer: "b"
     },
     {
       question: "Guess the game?",
@@ -150,9 +222,18 @@ $(document).ready(() => {
     {
       question: "Guess the game?",
       answers: {
+        a: "Haunted House",
+        b: "BOO!",
+        c: "Kitchen Nightmares"
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "Guess the game?",
+      answers: {
         a: "3-D Tic-Tac-Toe",
         b: "Grid Wars",
-        c: "Disco Space"
+        c: "Robot Babysister"
       },
       correctAnswer: "a"
     }

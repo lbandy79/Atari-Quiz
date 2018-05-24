@@ -303,7 +303,7 @@ $(document).ready(() => {
 
   $( "#dialog" ).dialog({
   dialogClass: "no-close",
-  position: { my: "left top", at: "left bottom", of: window},
+  position: { my: "center top", at: "center top+76", of: window,},
   buttons: [
     {
       text: "OK",
@@ -321,5 +321,6 @@ $(document).ready(() => {
   nextButton.addEventListener("click", showResults);
   submitButton.addEventListener("click", () => {
     document.getElementById("game-over").innerHTML = "GAME OVER";
+    showResults();
   });
 });
